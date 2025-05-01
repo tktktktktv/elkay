@@ -83,7 +83,7 @@ const projectLayouts = {
       <p class="exh-info">Princeton University</p>
       <p class="exh-info">2024</p>
       <p>Curator</p>
-      <p>An exhibition of drawings and sculptures by Mira Dayal.</p>
+      <p>An exhibition of work by Mira Dayal exploring evolving approaches to language as a tool for encryption.</p>
 
       <img class="exh-img" src="imgs/exhs/complex/ctinstall5.jpeg" alt="Complex Tokens install view">
       <p class="img-caption">Installation view of <em>Complex Tokens</em></p>
@@ -95,7 +95,7 @@ const projectLayouts = {
         
         <img src="imgs/exhs/complex/ctinstall9.jpeg" alt="Complex Tokens install view">
       </div>
-      <p class="img-caption">Installation views of <em>Complex Tokens</em></p>
+      <p class="img-caption">Detail of reCAPTCHA drawing and installation view of <em>Complex Tokens</em></p>
       
       <p>The appearance of cylinder seals advanced ancient administration, creating permanent impressions when rolled across wet clay. The stone seals served bureaucratic purposes akin to authorizing documents or verifying transactions. Dayal has created a series of graphite and chalk cylinder seals with reCAPTCHA texts laser-etched into their forms. The images are reversed and cannot be fully discerned from the seals themselves. Made from drawing materials, the cylinders resemble stone and appear at times organic and at times mass-produced. Because of their fragility, Dayal’s seals cannot be used to make impressions, and thus cannot be entirely decoded.</p>
     
@@ -119,7 +119,7 @@ const projectLayouts = {
       <p class="exh-info">Princeton University</p>
       <p class="exh-info">2023</p>
       <p>Curator</p>
-      <p>Photographs by Evgeniy Maloletka and Mstyslav Chernov</p>
+      <p>Photographs by Evgeniy Maloletka and Mstyslav Chernov documenting the war in Ukraine in early 2022.</p>
       <img class="exh-img" src="imgs/exhs/mariupol/Mariupol.jpg" alt="AP Photo / Evgeniy Maloletka">
       <p class="img-caption">A Ukrainian serviceman takes a photograph of a damaged church after shelling in a residential district in Mariupol, Ukraine, Thursday, March 10, 2022. AP Photo / Evgeniy Maloletka</p>
       <p>On the 24th of February 2022, the Russian Federation commenced a full-scale invasion of Ukraine. An hour before the attack’s apocalyptic beginnings, three Ukrainian journalists from the Associated Press—Evgeniy Maloletka, Mstyslav Chernov, and Vasilisa Stepanenko—arrived in the eastern port city of Mariupol. They had driven through the night, sensing the impending war and painfully aware of the city’s strategic significance for the Kremlin. An industrial center on the coast of the Sea of Azov, Mariupol lies along major routes between Crimea to the west and the border with Russia to the east. In 2014, as fighting erupted in the Donbas, the city was captured briefly by Russian-backed separatists. Ukrainian forces quickly reclaimed Mariupol, but the sounds of war were always near. Eight years later, the violent conflict in the east escalated into catastrophe.</p> 
