@@ -14,13 +14,12 @@ body {
     display: grid;
     grid-template-areas: 
         "name one two three";
-    /* grid-template-rows: auto; */
-    grid-template-columns: 50% 19% 15.5% 16.67%;
-    /* grid-template-rows: 3fr 1.1fr 2fr 1fr; */
+    grid-template-columns: 3fr 1fr 1fr 1fr;
     position: sticky;
     top: 0;
     background-color: #f9f7f1;
     transition: background-color 4s ease;
+    margin: 40px;
 }
 
 .name {
@@ -226,10 +225,7 @@ body {
         background-color: #f9f7f1;
         width: 100%;
         padding: 5px;
-    }
-
-    .header-grid div {
-        background-color: #f9f7f1;
+        margin: 0;
     }
 
     #details {
