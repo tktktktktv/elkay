@@ -1,0 +1,313 @@
+
+/* BODY AND GENERAL */
+
+body {
+    padding: 20px;
+    background-color: #f9f7f1;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #4a403a;
+    transition: background-color 4s ease;
+}
+
+/* HEADER AND SHAPES */
+.header-grid {
+    display: grid;
+    grid-template-areas: 
+        "name one two three";
+    /* grid-template-rows: auto; */
+    grid-template-columns: 50% 19% 15.5% 16.67%;
+    /* grid-template-rows: 3fr 1.1fr 2fr 1fr; */
+    position: sticky;
+    top: 0;
+    background-color: #f9f7f1;
+    transition: background-color 4s ease;
+}
+
+.name {
+    grid-area: name;
+}
+
+.name p {
+    margin: 0;
+    padding: 0.5em;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+#name-toggle {
+  /* transition: font-size 5s ease, font-weight 2s ease; */
+  /* font-family: 'Astrology', sans-serif; */
+  /* font-size: 1.5rem;
+  font-weight: normal; */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+.menu-one {
+    grid-area: one;
+}
+
+.menu-two {
+    grid-area: two;
+}
+
+.menu-three {
+    grid-area: three;
+}
+
+.menu p {
+    margin: 0;
+    padding: 0.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+ 
+ .menu-label {
+    margin: 10px;
+ } 
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    z-index: 1000;
+    width: max-content;
+}
+
+.dropdown-menu li {
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+
+.shape {
+    display: inline-block;
+    background-color: #999;
+    transition: transform 0.3s ease, background-color 0.4s ease, border-bottom-color 0.4s ease;
+    transform-origin: center;
+  }
+
+  .shape.square {
+    width: 20px;
+    height: 20px;
+    background-color: #999;
+    border-radius: 2px;
+    transition: background-color 0.5s ease, transform 0.5s linear;
+  }
+
+
+/* DETAILS SECTION */
+
+#details {
+    /* max-width: 1333px; */
+    margin-right: 60px;
+}
+
+.project-layout, .text-layout, .about-layout {
+    margin: 50px;
+}
+
+#details h2 {
+    margin: 20px 0px;
+    font-size: 50px;
+  }
+  
+  #details p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  
+  #details .exh-info {
+    margin: 5px 0px;
+  }
+    
+  #details .img-caption {
+    font-size: 10px;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    max-width: 555px; 
+    min-width: 200px; 
+  }
+  
+  #details .exh-des {
+    margin-bottom: 50px;
+  }
+
+  .txt-img {
+    margin: 30px 0px;
+    width: auto;
+    max-width: 850px;
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .exh-img {
+    margin: 30px 0px 15px 0px;
+    width: auto;
+    max-width: 600px; 
+    min-width: 200px; 
+    width: 100%; /* Image will scale fluidly between min and max */
+    height: auto; /* Maintain correct aspect ratio */
+    display: block; /* Remove weird inline gaps */
+  }
+
+  .img-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; /* Space between images */
+    margin: 30px 0px 15px 0px;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .img-box img {
+    /* width: 100%; */
+    max-width: 550px; 
+    min-width: 150px; 
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .footer {
+    height: 50px;
+    width: 100%;
+  }
+  
+
+/* MOBILE STYLE */
+
+@media (hover: hover) and (pointer: fine) {
+    .menu-one:hover .dropdown-menu {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 600px) {
+
+    body {
+        padding: 0px;
+    }
+
+    #details {
+        margin-right: 0px;
+    }
+
+    .header-grid {
+        display: grid;
+        grid-template-areas: 
+            "name name name"
+            "one two three";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: sticky;
+        top: 0;
+        background-color: #f9f7f1;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .header-grid div {
+        background-color: #f9f7f1;
+    }
+
+    #details {
+        max-width: 1333px;
+    }
+    
+    .project-layout, .text-layout, .about-layout {
+        margin: 20px;
+    }
+    
+    #details h2 {
+        margin: 20px 0px;
+        font-size: 40px;
+      }
+      
+      #details p {
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+      
+      #details .exh-info {
+        margin: 5px 0px;
+      }
+        
+      #details .img-caption {
+        font-size: 10px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+        max-width: 550px; /* Image will never get wider than 500px */
+        min-width: 200px; /* Image will never shrink smaller than 200px */
+      }
+      
+      #details .exh-des {
+        margin-bottom: 50px;
+      }
+    
+      .txt-img {
+        margin: 30px 0px;
+        width: auto;
+        max-width: 850px;
+        min-width: 200px;
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      .exh-img {
+        margin: 30px 0px;
+        width: auto;
+        max-width: 600px; 
+        min-width: 200px; 
+        width: 100%; /* Image will scale fluidly between min and max */
+        height: auto; /* Maintain correct aspect ratio */
+        display: block; /* Remove weird inline gaps */
+      }
+    
+      .img-box {
+        display: flex;
+        flex-direction: row;
+        gap: 30px; /* Space between images */
+        margin: 30px 0px;
+        max-width: 550px;
+        height: auto;
+      }
+      
+      .img-box img {
+        /* width: 100%; */
+        max-width: 500px; 
+        min-width: 150px; 
+        height: auto;
+        display: block;
+        object-fit: cover;
+      }
+
+      #name-toggle {
+        font-size: 1.25rem;
+      }
+
+  }
+
+  
