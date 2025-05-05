@@ -32,11 +32,11 @@ const textLayouts = {
       <h2>Chto Delat</h2>
       <p><em>Signals: How Video Transformed the World</em> (New York: The Museum of Modern Art, 2023)</p>
 
-      <a href="imgs/txts/HR/Chto-delat_Signals_2023_1.jpg" target="_blank">
+      <a href="imgs/txts/HR/CD_Signals_2023_1.jpg" target="_blank">
         <img class="txt-img" src="imgs/txts/LR/Chto-delat_Signals_2023_1_LR.jpeg" alt="Text img view">
       </a>
 
-      <a href="imgs/txts/HR/Chto-delat_Signals_2023_2.jpg" target="_blank">
+      <a href="imgs/txts/HR/CD_Signals_2023_2.jpg" target="_blank">
         <img class="txt-img" src="imgs/txts/LR/Chto-delat_Signals_2023_2_LR.jpeg" alt="Text img view">
       </a>
 
